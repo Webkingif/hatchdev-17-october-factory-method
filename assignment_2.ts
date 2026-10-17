@@ -1,9 +1,6 @@
-interface Transport {
-    deliver(cargo: string): void;
-    costPerKm(): number;
-}
 
-class Truck implements Transport {
+
+class Truck {
     deliver(cargo: string): void {
         console.log(`🚚 Delivering ${cargo} by road`);
     }
