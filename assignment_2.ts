@@ -31,7 +31,7 @@ abstract class Logistics {
 }
 
 class RoadLogistics extends Logistics {
-    createTransport(): Transport {
+    createTransport() {
         return new Truck();
     }
 }
